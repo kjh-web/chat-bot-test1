@@ -1,0 +1,79 @@
+node_modules
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Next.js
+galaxy-web-ui/.next/
+galaxy-web-ui/out/
+galaxy-web-ui/node_modules/
+galaxy-web-ui/.env.local
+galaxy-web-ui/.env.development.local
+galaxy-web-ui/.env.test.local
+galaxy-web-ui/.env.production.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+.env
+
+# 민감한 정보가 포함된 파일
+*API_KEY*
+*.pem
+*.key
+*.cert
+*secret*
+*token*
+*credentials*
+*password*
+
+# 안내사항 문서
+멀티모달*RAG*프로토타입_안내사항.md
+*안내사항*.md
+
+# 환경 설정 파일 (추가)
+.env.*
+env*.example
+*env*copy*
+
+# 로그 파일
+*.log
+logs/
+
+# 개인 설정 파일
+config.json
+config.yaml
+settings.json
+settings.yaml
+
+# 백업 파일
+*.bak
+*.backup
+*backup*
